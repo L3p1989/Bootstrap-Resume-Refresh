@@ -11,44 +11,61 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.css" />
   </head>
+
   <body>
-    <div class="container">
+    <!--Container with padding * 3-->
+    <div class="container p-5">
+      <!--Jumbotron with blue background and white text-->
       <div class="jumbotron bg-primary text-white">
+        <!--Header with bold font-->
         <h1 class="font-weight-bold">Patrick Hogan</h1>
+        <!--Paragraph with bold font-->
         <p class="font-weight-bold lead">Junior Full Stack Developer</p>
       </div>
+      <!--Alert with the green background and text-->
       <div class="alert alert-success">
         This resume was created using Bootstrap 4!
       </div>
-      <h2>My Skills</h2>
+      <!--Header with bottom padding * .5-->
+      <h2 class="pb-2">My Skills</h2>
+      <!--Beginning of list group-->
       <ul class="list-group">
+        <!--1st List item with flex display content start between and aligned to center-->
         <li
           class="list-group-item d-flex justify-content-between align-items-center"
         >
           HTML/CSS
+          <!--span badge with blue background, white text, and rounded edges-->
           <span class="badge badge-primary badge-pill">25%</span>
         </li>
+        <!--2nd List item with flex display content start between and aligned to center-->
         <li
           class="list-group-item d-flex justify-content-between align-items-center"
         >
           Front End JavaScript
+          <!--span badge with blue background, white text, and rounded edges-->
           <span class="badge badge-primary badge-pill">20%</span>
         </li>
+        <!--3rd List item with flex display content start between and aligned to center-->
         <li
           class="list-group-item d-flex justify-content-between align-items-center"
         >
           NodeJS Server Development
+          <!--span badge with blue background, white text, and rounded edges-->
           <span class="badge badge-primary badge-pill">35%</span>
         </li>
+        <!--4th List item with flex display content start between and aligned to center-->
         <li
           class="list-group-item d-flex justify-content-between align-items-center"
         >
           SQL
+          <!--span badge with blue background, white text, and rounded edges-->
           <span class="badge badge-primary badge-pill">20%</span>
         </li>
       </ul>
+      <!--Header with bottom/top padding * .5-->
+      <h2 class="pb-2 pt-2">My Experience</h2>
     </div>
   </body>
 </html>
